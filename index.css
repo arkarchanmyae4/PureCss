@@ -14,14 +14,14 @@ input {
   color: red;
   font-size: small;
   position: absolute;
-  left: 120px;
+  left: 130px;
   top: 300px;
 }
 
 .bands {
   top: 130px;
   position: absolute;
-  height: 50%;
+  height: 170px;
   width: auto;
   left: 50px;
   box-shadow: 8px 8px 10px rgb(203, 197, 197);
@@ -31,7 +31,7 @@ input {
 
 .cases {
   position: absolute;
-  height: 50%;
+  height: 170px;
   left: 50px;
   top: 130px;
   opacity: 0%;
