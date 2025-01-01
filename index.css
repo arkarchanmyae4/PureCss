@@ -1,0 +1,103 @@
+* {
+  font-family: Helvetica, Arial;
+}
+
+input {
+  visibility: hidden;
+}
+
+.logo {
+  height: 20px;
+}
+
+.brandName {
+  color: red;
+  font-size: small;
+  position: absolute;
+  left: 120px;
+  top: 300px;
+}
+
+.bands {
+  top: 130px;
+  position: absolute;
+  height: 50%;
+  width: auto;
+  left: 50px;
+  box-shadow: 8px 8px 10px rgb(203, 197, 197);
+  opacity: 0%;
+  transition-duration: 1s;
+}
+
+.cases {
+  position: absolute;
+  height: 50%;
+  left: 50px;
+  top: 130px;
+  opacity: 0%;
+  transition-duration: 1s;
+}
+
+.label {
+  position: absolute;
+  left: 55%;
+  top: 130px;
+}
+
+.caption {
+  font-size: small;
+  line-height: 2px;
+}
+
+.casePic {
+  justify-content: space-between;
+  position: absolute;
+  top: 130px;
+  left: 270px;
+}
+
+.bandPic {
+  justify-content: space-between;
+  position: absolute;
+  top: 200px;
+  left: 270px;
+}
+
+.caseLabel {
+  height: 30px;
+  justify-content: space-between;
+}
+
+/* case change function */
+#case1:checked ~ #caseOne,
+#bandOne {
+  opacity: 100%;
+}
+
+#case2:checked ~ #caseTwo {
+  opacity: 100%;
+}
+#band2:checked ~ #bandTwo {
+  opacity: 100%;
+}
+
+#case3:checked ~ #caseThree {
+  opacity: 100%;
+}
+#band3:checked ~ #bandThree {
+  opacity: 100%;
+}
+
+#case4:checked ~ #caseFour {
+  opacity: 100%;
+}
+#band4:checked ~ #bandFour {
+  opacity: 100%;
+}
+
+#case5:checked ~ #caseFive {
+  opacity: 100%;
+}
+#band5:checked ~ #bandFive {
+  opacity: 100%;
+}
